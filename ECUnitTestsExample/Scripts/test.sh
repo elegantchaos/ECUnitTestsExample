@@ -1,7 +1,8 @@
+#!/usr/bin/env bash
+
 echo Testing Mac ECUnitTestsExample
 
 base=`dirname $0`
-common="$base/../Scripts"
-source "$common/test-common.sh"
+source "$base/test-common.sh"
 
-xcodebuild -workspace "ECUnitTests.xcworkspace" -scheme "ECUnitTestsExample" -sdk "$testSDKMac" test | "$common/$testConvertOutput"
+xcodebuild -workspace "ECUnitTestsExample.xcworkspace" -scheme "ECUnitTestsExample" -sdk "$testSDKMac" test | "$base/$testConvertOutput"
