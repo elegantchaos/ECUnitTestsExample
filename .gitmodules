@@ -1,0 +1,3 @@
+[submodule "ECUnitTests"]
+	path = ECUnitTests
+	url = git@codebasehq.com:elegantchaos/private/ecunittests.git
