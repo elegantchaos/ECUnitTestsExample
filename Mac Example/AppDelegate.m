@@ -10,6 +10,8 @@
 
 @implementation AppDelegate
 
+@synthesize window;
+
 - (void)dealloc
 {
     [super dealloc];

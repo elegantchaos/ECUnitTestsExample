@@ -54,12 +54,19 @@
 		22326A0914FA98BB003055A2 /* Mac Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22326A0A14FA98BB003055A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HierarchicalExample.testsuite; sourceTree = "<group>"; };
+		2261539915DACFCC006783C3 /* Debug.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Debug.pch; sourceTree = "<group>"; };
+		2261539A15DACFCC006783C3 /* Release.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Release.pch; sourceTree = "<group>"; };
+		2261539B15DACFCC006783C3 /* Shared.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.pch; sourceTree = "<group>"; };
 		227A47A815DA5BF900281601 /* HierarchicalExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HierarchicalExample.m; sourceTree = "<group>"; };
 		227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterisedTestsExample.m; sourceTree = "<group>"; };
 		227A47AA15DA5BF900281601 /* RunLoopExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopExample.m; sourceTree = "<group>"; };
 		227A47B115DA5C0900281601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2286A20C15DA63AF001CD55C /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECUnitTests.framework; path = "../ECUnitTests/build/Release-iphoneos/ECUnitTests.framework"; sourceTree = "<group>"; };
 		22AB8C3914FD31AB00D95D79 /* Included.testsuite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Included.testsuite; sourceTree = "<group>"; };
+		22BC8E4D15DAC75700132883 /* IOSDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSDebug.xcconfig; sourceTree = "<group>"; };
+		22BC8E4E15DAC75700132883 /* IOSRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSRelease.xcconfig; sourceTree = "<group>"; };
+		22BC8E4F15DAC75700132883 /* MacDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacDebug.xcconfig; sourceTree = "<group>"; };
+		22BC8E5015DAC75700132883 /* MacRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacRelease.xcconfig; sourceTree = "<group>"; };
 		22BEA17815DA521F0036A04F /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BEA17A15DA52200036A04F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		22BEA17D15DA52200036A04F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -134,6 +141,8 @@
 			children = (
 				221CB52015DA8BF6004C6398 /* README.md */,
 				221CB50A15DA825B004C6398 /* Scripts */,
+				22BC8E4C15DAC75700132883 /* Configuration */,
+				2261539815DACFCC006783C3 /* Prefix */,
 				22BEA17F15DA52200036A04F /* iOS Example */,
 				22BEA1DB15DA56820036A04F /* Mac Example */,
 				22326A2F14FA994C003055A2 /* Tests */,
@@ -198,6 +207,27 @@
 				221662B814FB8F7B009B975D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2261539815DACFCC006783C3 /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				2261539915DACFCC006783C3 /* Debug.pch */,
+				2261539A15DACFCC006783C3 /* Release.pch */,
+				2261539B15DACFCC006783C3 /* Shared.pch */,
+			);
+			path = Prefix;
+			sourceTree = "<group>";
+		};
+		22BC8E4C15DAC75700132883 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				22BC8E4D15DAC75700132883 /* IOSDebug.xcconfig */,
+				22BC8E4E15DAC75700132883 /* IOSRelease.xcconfig */,
+				22BC8E4F15DAC75700132883 /* MacDebug.xcconfig */,
+				22BC8E5015DAC75700132883 /* MacRelease.xcconfig */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		22BEA17F15DA52200036A04F /* iOS Example */ = {
@@ -519,53 +549,18 @@
 		22326A1914FA98BC003055A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
 		22326A1A14FA98BC003055A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Release;
 		};
 		22326A1F14FA98BC003055A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC8E4F15DAC75700132883 /* MacDebug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -586,6 +581,7 @@
 		};
 		22326A2014FA98BC003055A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC8E5015DAC75700132883 /* MacRelease.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -606,6 +602,7 @@
 		};
 		22BEA1AB15DA52200036A04F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC8E4D15DAC75700132883 /* IOSDebug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -628,6 +625,7 @@
 		};
 		22BEA1AC15DA52200036A04F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC8E4E15DAC75700132883 /* IOSRelease.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -652,6 +650,7 @@
 		};
 		22BEA1AD15DA52200036A04F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC8E4D15DAC75700132883 /* IOSDebug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -673,6 +672,7 @@
 		};
 		22BEA1AE15DA52200036A04F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC8E4E15DAC75700132883 /* IOSRelease.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -695,16 +695,11 @@
 		};
 		22BEA1EE15DA56820036A04F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC8E4F15DAC75700132883 /* MacDebug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mac Example/Mac Example-Prefix.pch";
 				INFOPLIST_FILE = "Mac Example/Mac Example-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -713,16 +708,11 @@
 		};
 		22BEA1EF15DA56820036A04F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC8E5015DAC75700132883 /* MacRelease.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mac Example/Mac Example-Prefix.pch";
 				INFOPLIST_FILE = "Mac Example/Mac Example-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
