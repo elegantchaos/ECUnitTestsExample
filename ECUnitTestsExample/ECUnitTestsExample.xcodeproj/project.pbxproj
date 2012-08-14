@@ -45,6 +45,7 @@
 /* Begin PBXFileReference section */
 		221662B914FB8F7B009B975D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		221662C014FB900C009B975D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		221CB50A15DA825B004C6398 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
 		223269F814FA98BB003055A2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		223269FB14FA98BB003055A2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		223269FC14FA98BB003055A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -130,6 +131,7 @@
 		223269EA14FA98BB003055A2 = {
 			isa = PBXGroup;
 			children = (
+				221CB50A15DA825B004C6398 /* Scripts */,
 				22BEA17F15DA52200036A04F /* iOS Example */,
 				22BEA1DB15DA56820036A04F /* Mac Example */,
 				22326A2F14FA994C003055A2 /* Tests */,
@@ -399,6 +401,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			showEnvVarsInLog = 0;
 		};
 		22BEA19A15DA52200036A04F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -412,6 +415,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -647,7 +651,6 @@
 		22BEA1AD15DA52200036A04F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Example.app/iOS Example";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -669,7 +672,6 @@
 		22BEA1AE15DA52200036A04F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Example.app/iOS Example";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
