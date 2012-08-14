@@ -1,6 +1,6 @@
 //
 //  MasterViewController.h
-//  iOS Example
+//  iOS Example 2
 //
 //  Created by Sam Deane on 14/08/2012.
 //

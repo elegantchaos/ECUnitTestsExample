@@ -26,8 +26,6 @@
 		22BEA18415DA52200036A04F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22BEA18215DA52200036A04F /* InfoPlist.strings */; };
 		22BEA18615DA52200036A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA18515DA52200036A04F /* main.m */; };
 		22BEA18A15DA52200036A04F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA18915DA52200036A04F /* AppDelegate.m */; };
-		22BEA18D15DA52200036A04F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BEA18B15DA52200036A04F /* MainStoryboard_iPhone.storyboard */; };
-		22BEA19015DA52200036A04F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BEA18E15DA52200036A04F /* MainStoryboard_iPad.storyboard */; };
 		22BEA19315DA52200036A04F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA19215DA52200036A04F /* MasterViewController.m */; };
 		22BEA19615DA52200036A04F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA19515DA52200036A04F /* DetailViewController.m */; };
 		22BEA19D15DA52200036A04F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22326A0A14FA98BB003055A2 /* SenTestingKit.framework */; };
@@ -58,7 +56,7 @@
 		227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterisedTestsExample.m; sourceTree = "<group>"; };
 		227A47AA15DA5BF900281601 /* RunLoopExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopExample.m; sourceTree = "<group>"; };
 		227A47B115DA5C0900281601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2286A20C15DA63AF001CD55C /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = ECUnitTests.framework; path = "../ECUnitTests/build/Release-iphoneos/ECUnitTests.framework"; sourceTree = "<group>"; };
+		2286A20C15DA63AF001CD55C /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECUnitTests.framework; path = "../ECUnitTests/build/Release-iphoneos/ECUnitTests.framework"; sourceTree = "<group>"; };
 		22AB8C3914FD31AB00D95D79 /* Included.testsuite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Included.testsuite; sourceTree = "<group>"; };
 		22BEA17815DA521F0036A04F /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BEA17A15DA52200036A04F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -69,8 +67,6 @@
 		22BEA18715DA52200036A04F /* iOS Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Example-Prefix.pch"; sourceTree = "<group>"; };
 		22BEA18815DA52200036A04F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22BEA18915DA52200036A04F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		22BEA18C15DA52200036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		22BEA18F15DA52200036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		22BEA19115DA52200036A04F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		22BEA19215DA52200036A04F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		22BEA19415DA52200036A04F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -86,8 +82,6 @@
 		22BEA1E815DA56820036A04F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		22BEA1EB15DA56820036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		22BEA1F915DA58E70036A04F /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECUnitTests.framework; path = "../../../../../../../../../../../Caches/DerivedData/ECUnitTestsExample-abewyowfxocaocbksvbysbwavbcy/Build/Products/Debug/ECUnitTests.framework"; sourceTree = "<group>"; };
-		22EAEC3515D832DD0050DB15 /* libECUnitTestsIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libECUnitTestsIOS.a; path = "ECUnitTests/build/Release-iphoneos/libECUnitTestsIOS.a"; sourceTree = "<group>"; };
-		22EAEC3615D832DD0050DB15 /* libECUnitTestsMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libECUnitTestsMac.a; path = "/Caches/DerivedData/ECUnitTestsExample-abewyowfxocaocbksvbysbwavbcy/Build/Products/Debug/libECUnitTestsMac.a"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +154,6 @@
 			children = (
 				2286A20C15DA63AF001CD55C /* ECUnitTests.framework */,
 				22BEA1F915DA58E70036A04F /* ECUnitTests.framework */,
-				22EAEC3515D832DD0050DB15 /* libECUnitTestsIOS.a */,
-				22EAEC3615D832DD0050DB15 /* libECUnitTestsMac.a */,
 				223269F814FA98BB003055A2 /* Cocoa.framework */,
 				22326A0A14FA98BB003055A2 /* SenTestingKit.framework */,
 				221662C014FB900C009B975D /* Foundation.framework */,
@@ -209,8 +201,6 @@
 			children = (
 				22BEA18815DA52200036A04F /* AppDelegate.h */,
 				22BEA18915DA52200036A04F /* AppDelegate.m */,
-				22BEA18B15DA52200036A04F /* MainStoryboard_iPhone.storyboard */,
-				22BEA18E15DA52200036A04F /* MainStoryboard_iPad.storyboard */,
 				22BEA19115DA52200036A04F /* MasterViewController.h */,
 				22BEA19215DA52200036A04F /* MasterViewController.m */,
 				22BEA19415DA52200036A04F /* DetailViewController.h */,
@@ -372,8 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BEA18415DA52200036A04F /* InfoPlist.strings in Resources */,
-				22BEA18D15DA52200036A04F /* MainStoryboard_iPhone.storyboard in Resources */,
-				22BEA19015DA52200036A04F /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,22 +481,6 @@
 				22BEA18315DA52200036A04F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		22BEA18B15DA52200036A04F /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22BEA18C15DA52200036A04F /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		22BEA18E15DA52200036A04F /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22BEA18F15DA52200036A04F /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		22BEA1DE15DA56820036A04F /* InfoPlist.strings */ = {
@@ -640,7 +612,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Example/iOS Example-Prefix.pch";
 				INFOPLIST_FILE = "iOS Example/iOS Example-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -662,7 +634,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Example/iOS Example-Prefix.pch";
 				INFOPLIST_FILE = "iOS Example/iOS Example-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -683,14 +655,13 @@
 					"$(CONFIGURATION_BUILD_DIR)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ECUnitTests/build/Release-iphoneos\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -706,14 +677,13 @@
 					"$(CONFIGURATION_BUILD_DIR)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ECUnitTests/build/Release-iphoneos\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = octest;
 			};
