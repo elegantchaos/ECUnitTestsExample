@@ -8,16 +8,16 @@
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "221662BE14FB900C009B975D"
-               BuildableName = "libECUnitTestsIOS.a"
-               BlueprintName = "ECUnitTestsIOS"
-               ReferencedContainer = "container:ECUnitTests/ECUnitTests.xcodeproj">
+               BlueprintIdentifier = "227A47B915DA5FA000281601"
+               BuildableName = "ECUnitTests.framework"
+               BlueprintName = "ECUnitTestIOS"
+               ReferencedContainer = "container:../ECUnitTests/ECUnitTests.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry

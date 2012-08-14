@@ -18,6 +18,7 @@
 		227A47AE15DA5BF900281601 /* ParameterisedTestsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */; };
 		227A47AF15DA5BF900281601 /* RunLoopExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47AA15DA5BF900281601 /* RunLoopExample.m */; };
 		227A47B015DA5BF900281601 /* RunLoopExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47AA15DA5BF900281601 /* RunLoopExample.m */; };
+		2286A20D15DA63AF001CD55C /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2286A20C15DA63AF001CD55C /* ECUnitTests.framework */; };
 		22AB8C3A14FD31AB00D95D79 /* Included.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 22AB8C3914FD31AB00D95D79 /* Included.testsuite */; };
 		22BEA17B15DA52200036A04F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BEA17A15DA52200036A04F /* UIKit.framework */; };
 		22BEA17C15DA52200036A04F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221662C014FB900C009B975D /* Foundation.framework */; };
@@ -32,10 +33,8 @@
 		22BEA19D15DA52200036A04F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22326A0A14FA98BB003055A2 /* SenTestingKit.framework */; };
 		22BEA19E15DA52200036A04F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BEA17A15DA52200036A04F /* UIKit.framework */; };
 		22BEA19F15DA52200036A04F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221662C014FB900C009B975D /* Foundation.framework */; };
-		22BEA1A715DA52200036A04F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22BEA1A515DA52200036A04F /* InfoPlist.strings */; };
 		22BEA1B515DA52600036A04F /* HierarchicalExample.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */; };
 		22BEA1B615DA52650036A04F /* Included.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 22AB8C3914FD31AB00D95D79 /* Included.testsuite */; };
-		22BEA1B915DA55010036A04F /* libECUnitTestsIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EAEC3515D832DD0050DB15 /* libECUnitTestsIOS.a */; };
 		22BEA1DA15DA56820036A04F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223269F814FA98BB003055A2 /* Cocoa.framework */; };
 		22BEA1E015DA56820036A04F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22BEA1DE15DA56820036A04F /* InfoPlist.strings */; };
 		22BEA1E215DA56820036A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA1E115DA56820036A04F /* main.m */; };
@@ -69,6 +68,7 @@
 		227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterisedTestsExample.m; sourceTree = "<group>"; };
 		227A47AA15DA5BF900281601 /* RunLoopExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopExample.m; sourceTree = "<group>"; };
 		227A47B115DA5C0900281601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2286A20C15DA63AF001CD55C /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = ECUnitTests.framework; path = "../ECUnitTests/build/Release-iphoneos/ECUnitTests.framework"; sourceTree = "<group>"; };
 		22AB8C3914FD31AB00D95D79 /* Included.testsuite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Included.testsuite; sourceTree = "<group>"; };
 		22BEA17815DA521F0036A04F /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BEA17A15DA52200036A04F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -86,8 +86,6 @@
 		22BEA19415DA52200036A04F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		22BEA19515DA52200036A04F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		22BEA19C15DA52200036A04F /* iOS Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22BEA1A415DA52200036A04F /* iOS ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS ExampleTests-Info.plist"; sourceTree = "<group>"; };
-		22BEA1A615DA52200036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22BEA1D815DA56820036A04F /* Mac Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BEA1DD15DA56820036A04F /* Mac Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mac Example-Info.plist"; sourceTree = "<group>"; };
 		22BEA1DF15DA56820036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -130,7 +128,7 @@
 				22BEA19D15DA52200036A04F /* SenTestingKit.framework in Frameworks */,
 				22BEA19E15DA52200036A04F /* UIKit.framework in Frameworks */,
 				22BEA19F15DA52200036A04F /* Foundation.framework in Frameworks */,
-				22BEA1B915DA55010036A04F /* libECUnitTestsIOS.a in Frameworks */,
+				2286A20D15DA63AF001CD55C /* ECUnitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +149,6 @@
 				22BEA17F15DA52200036A04F /* iOS Example */,
 				22BEA1DB15DA56820036A04F /* Mac Example */,
 				22326A2F14FA994C003055A2 /* Tests */,
-				22BEA1A215DA52200036A04F /* iOS ExampleTests */,
 				223269F714FA98BB003055A2 /* Frameworks */,
 				223269F614FA98BB003055A2 /* Products */,
 			);
@@ -171,6 +168,7 @@
 		223269F714FA98BB003055A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2286A20C15DA63AF001CD55C /* ECUnitTests.framework */,
 				22BEA1F915DA58E70036A04F /* ECUnitTests.framework */,
 				22EAEC3515D832DD0050DB15 /* libECUnitTestsIOS.a */,
 				22EAEC3615D832DD0050DB15 /* libECUnitTestsMac.a */,
@@ -239,23 +237,6 @@
 				22BEA18215DA52200036A04F /* InfoPlist.strings */,
 				22BEA18515DA52200036A04F /* main.m */,
 				22BEA18715DA52200036A04F /* iOS Example-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		22BEA1A215DA52200036A04F /* iOS ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				22BEA1A315DA52200036A04F /* Supporting Files */,
-			);
-			path = "iOS ExampleTests";
-			sourceTree = "<group>";
-		};
-		22BEA1A315DA52200036A04F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				22BEA1A415DA52200036A04F /* iOS ExampleTests-Info.plist */,
-				22BEA1A515DA52200036A04F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -411,7 +392,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BEA1A715DA52200036A04F /* InfoPlist.strings in Resources */,
 				22BEA1B515DA52600036A04F /* HierarchicalExample.testsuite in Resources */,
 				22BEA1B615DA52650036A04F /* Included.testsuite in Resources */,
 			);
@@ -548,14 +528,6 @@
 				22BEA18F15DA52200036A04F /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		22BEA1A515DA52200036A04F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22BEA1A615DA52200036A04F /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		22BEA1DE15DA56820036A04F /* InfoPlist.strings */ = {
@@ -723,19 +695,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Example.app/iOS Example";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					"$(CONFIGURATION_BUILD_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS Example/iOS Example-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)";
-				INFOPLIST_FILE = "iOS ExampleTests/iOS ExampleTests-Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -752,19 +718,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Example.app/iOS Example";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					"$(CONFIGURATION_BUILD_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS Example/iOS Example-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)";
-				INFOPLIST_FILE = "iOS ExampleTests/iOS ExampleTests-Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
