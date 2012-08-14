@@ -45,3 +45,5 @@ Backup[ ]of[ ]*.numbers/
 
 # compiled python
 *.pyc
+
+test-reports/
