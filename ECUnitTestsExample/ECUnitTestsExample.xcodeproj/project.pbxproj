@@ -44,16 +44,6 @@
 		22BEA1FA15DA58E70036A04F /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BEA1F915DA58E70036A04F /* ECUnitTests.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		22BEA1A015DA52200036A04F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 223269EC14FA98BB003055A2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22BEA17715DA521F0036A04F;
-			remoteInfo = "iOS Example";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		221662B914FB8F7B009B975D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		221662C014FB900C009B975D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -314,7 +304,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				22BEA1A115DA52200036A04F /* PBXTargetDependency */,
 			);
 			name = "iOS Tests";
 			productName = "iOS ExampleTests";
@@ -480,14 +469,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		22BEA1A115DA52200036A04F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 22BEA17715DA521F0036A04F /* iOS Example */;
-			targetProxy = 22BEA1A015DA52200036A04F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		221662B814FB8F7B009B975D /* InfoPlist.strings */ = {
