@@ -12,6 +12,9 @@
 		22326A0C14FA98BB003055A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223269F814FA98BB003055A2 /* Cocoa.framework */; };
 		22326A5914FAA377003055A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22326A5714FAA377003055A2 /* InfoPlist.strings */; };
 		225E906514FCFFF000FA3847 /* HierarchicalExample.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */; };
+		2261539E15DAD169006783C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2261539D15DAD169006783C3 /* UIKit.framework */; };
+		226153A015DAD172006783C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2261539F15DAD172006783C3 /* CoreGraphics.framework */; };
+		226153AC15DAD7D6006783C3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226153AB15DAD7D6006783C3 /* SenTestingKit.framework */; };
 		227A47AB15DA5BF900281601 /* HierarchicalExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A815DA5BF900281601 /* HierarchicalExample.m */; };
 		227A47AC15DA5BF900281601 /* HierarchicalExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A815DA5BF900281601 /* HierarchicalExample.m */; };
 		227A47AD15DA5BF900281601 /* ParameterisedTestsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */; };
@@ -20,15 +23,12 @@
 		227A47B015DA5BF900281601 /* RunLoopExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47AA15DA5BF900281601 /* RunLoopExample.m */; };
 		2286A20D15DA63AF001CD55C /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2286A20C15DA63AF001CD55C /* ECUnitTests.framework */; };
 		22AB8C3A14FD31AB00D95D79 /* Included.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 22AB8C3914FD31AB00D95D79 /* Included.testsuite */; };
-		22BEA17B15DA52200036A04F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BEA17A15DA52200036A04F /* UIKit.framework */; };
 		22BEA17C15DA52200036A04F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221662C014FB900C009B975D /* Foundation.framework */; };
-		22BEA17E15DA52200036A04F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BEA17D15DA52200036A04F /* CoreGraphics.framework */; };
 		22BEA18415DA52200036A04F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22BEA18215DA52200036A04F /* InfoPlist.strings */; };
 		22BEA18615DA52200036A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA18515DA52200036A04F /* main.m */; };
 		22BEA18A15DA52200036A04F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA18915DA52200036A04F /* AppDelegate.m */; };
 		22BEA19315DA52200036A04F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA19215DA52200036A04F /* MasterViewController.m */; };
 		22BEA19615DA52200036A04F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA19515DA52200036A04F /* DetailViewController.m */; };
-		22BEA19D15DA52200036A04F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22326A0A14FA98BB003055A2 /* SenTestingKit.framework */; };
 		22BEA19E15DA52200036A04F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BEA17A15DA52200036A04F /* UIKit.framework */; };
 		22BEA19F15DA52200036A04F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221662C014FB900C009B975D /* Foundation.framework */; };
 		22BEA1B515DA52600036A04F /* HierarchicalExample.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */; };
@@ -57,6 +57,13 @@
 		2261539915DACFCC006783C3 /* Debug.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Debug.pch; sourceTree = "<group>"; };
 		2261539A15DACFCC006783C3 /* Release.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Release.pch; sourceTree = "<group>"; };
 		2261539B15DACFCC006783C3 /* Shared.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.pch; sourceTree = "<group>"; };
+		2261539D15DAD169006783C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2261539F15DAD172006783C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		226153A415DAD4FF006783C3 /* IOSUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSUnitTestDebug.xcconfig; sourceTree = "<group>"; };
+		226153A515DAD4FF006783C3 /* IOSUnitTestRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSUnitTestRelease.xcconfig; sourceTree = "<group>"; };
+		226153A615DAD4FF006783C3 /* MacUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestDebug.xcconfig; sourceTree = "<group>"; };
+		226153A715DAD4FF006783C3 /* MacUnitTestRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestRelease.xcconfig; sourceTree = "<group>"; };
+		226153AB15DAD7D6006783C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		227A47A815DA5BF900281601 /* HierarchicalExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HierarchicalExample.m; sourceTree = "<group>"; };
 		227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterisedTestsExample.m; sourceTree = "<group>"; };
 		227A47AA15DA5BF900281601 /* RunLoopExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopExample.m; sourceTree = "<group>"; };
@@ -85,7 +92,6 @@
 		22BEA1DD15DA56820036A04F /* Mac Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mac Example-Info.plist"; sourceTree = "<group>"; };
 		22BEA1DF15DA56820036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22BEA1E115DA56820036A04F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22BEA1E315DA56820036A04F /* Mac Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mac Example-Prefix.pch"; sourceTree = "<group>"; };
 		22BEA1E515DA56820036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		22BEA1E715DA56820036A04F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22BEA1E815DA56820036A04F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,9 +114,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BEA17B15DA52200036A04F /* UIKit.framework in Frameworks */,
+				226153A015DAD172006783C3 /* CoreGraphics.framework in Frameworks */,
+				2261539E15DAD169006783C3 /* UIKit.framework in Frameworks */,
 				22BEA17C15DA52200036A04F /* Foundation.framework in Frameworks */,
-				22BEA17E15DA52200036A04F /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,10 +124,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BEA19D15DA52200036A04F /* SenTestingKit.framework in Frameworks */,
 				22BEA19E15DA52200036A04F /* UIKit.framework in Frameworks */,
 				22BEA19F15DA52200036A04F /* Foundation.framework in Frameworks */,
 				2286A20D15DA63AF001CD55C /* ECUnitTests.framework in Frameworks */,
+				226153AC15DAD7D6006783C3 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +171,9 @@
 		223269F714FA98BB003055A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				226153AB15DAD7D6006783C3 /* SenTestingKit.framework */,
+				2261539F15DAD172006783C3 /* CoreGraphics.framework */,
+				2261539D15DAD169006783C3 /* UIKit.framework */,
 				2286A20C15DA63AF001CD55C /* ECUnitTests.framework */,
 				22BEA1F915DA58E70036A04F /* ECUnitTests.framework */,
 				223269F814FA98BB003055A2 /* Cocoa.framework */,
@@ -226,6 +235,10 @@
 				22BC8E4E15DAC75700132883 /* IOSRelease.xcconfig */,
 				22BC8E4F15DAC75700132883 /* MacDebug.xcconfig */,
 				22BC8E5015DAC75700132883 /* MacRelease.xcconfig */,
+				226153A415DAD4FF006783C3 /* IOSUnitTestDebug.xcconfig */,
+				226153A515DAD4FF006783C3 /* IOSUnitTestRelease.xcconfig */,
+				226153A615DAD4FF006783C3 /* MacUnitTestDebug.xcconfig */,
+				226153A715DAD4FF006783C3 /* MacUnitTestRelease.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -272,7 +285,6 @@
 				22BEA1DD15DA56820036A04F /* Mac Example-Info.plist */,
 				22BEA1DE15DA56820036A04F /* InfoPlist.strings */,
 				22BEA1E115DA56820036A04F /* main.m */,
-				22BEA1E315DA56820036A04F /* Mac Example-Prefix.pch */,
 				22BEA1E415DA56820036A04F /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -560,14 +572,9 @@
 		};
 		22326A1F14FA98BC003055A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22BC8E4F15DAC75700132883 /* MacDebug.xcconfig */;
+			baseConfigurationReference = 226153A615DAD4FF006783C3 /* MacUnitTestDebug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-					"\"/Caches/DerivedData/ECUnitTestsExample-abewyowfxocaocbksvbysbwavbcy/Build/Products/Debug\"",
-				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -581,14 +588,9 @@
 		};
 		22326A2014FA98BC003055A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22BC8E5015DAC75700132883 /* MacRelease.xcconfig */;
+			baseConfigurationReference = 226153A715DAD4FF006783C3 /* MacUnitTestRelease.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-					"\"/Caches/DerivedData/ECUnitTestsExample-abewyowfxocaocbksvbysbwavbcy/Build/Products/Debug\"",
-				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -604,20 +606,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22BC8E4D15DAC75700132883 /* IOSDebug.xcconfig */;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS Example/iOS Example-Prefix.pch";
-				INFOPLIST_FILE = "iOS Example/iOS Example-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -627,43 +622,28 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22BC8E4E15DAC75700132883 /* IOSRelease.xcconfig */;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS Example/iOS Example-Prefix.pch";
-				INFOPLIST_FILE = "iOS Example/iOS Example-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		22BEA1AD15DA52200036A04F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22BC8E4D15DAC75700132883 /* IOSDebug.xcconfig */;
+			baseConfigurationReference = 226153A415DAD4FF006783C3 /* IOSUnitTestDebug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"$(CONFIGURATION_BUILD_DIR)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/ECUnitTests/build/Release-iphoneos\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
@@ -672,20 +652,14 @@
 		};
 		22BEA1AE15DA52200036A04F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22BC8E4E15DAC75700132883 /* IOSRelease.xcconfig */;
+			baseConfigurationReference = 226153A715DAD4FF006783C3 /* MacUnitTestRelease.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"$(CONFIGURATION_BUILD_DIR)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/ECUnitTests/build/Release-iphoneos\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

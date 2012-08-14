@@ -15,5 +15,5 @@
 //
 // You can fix this by adding a symbolic link called ECConfig that points to the right place.
 
-#include "../ECConfig/Configuration/ECIOSDebug.xcconfig"
-
+#include "../ECConfig/Configuration/ECMacRelease.xcconfig"
+#include "../ECConfig/Configuration/ECUnitTests.xcconfig"
