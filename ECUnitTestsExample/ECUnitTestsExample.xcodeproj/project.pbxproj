@@ -10,12 +10,14 @@
 		221662BA14FB8F7B009B975D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 221662B814FB8F7B009B975D /* InfoPlist.strings */; };
 		22326A0B14FA98BB003055A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22326A0A14FA98BB003055A2 /* SenTestingKit.framework */; };
 		22326A0C14FA98BB003055A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223269F814FA98BB003055A2 /* Cocoa.framework */; };
-		22326A5014FAA337003055A2 /* ParameterisedTestsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 22326A4F14FAA337003055A2 /* ParameterisedTestsExample.m */; };
 		22326A5914FAA377003055A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22326A5714FAA377003055A2 /* InfoPlist.strings */; };
-		22326A5B14FAA3AF003055A2 /* ParameterisedTestsExample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22326A5A14FAA3AF003055A2 /* ParameterisedTestsExample.plist */; };
-		22326A5E14FAA570003055A2 /* RunLoopExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 22326A5D14FAA570003055A2 /* RunLoopExample.m */; };
-		225E906414FCFFF000FA3847 /* HierarchicalExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 225E906214FCFFF000FA3847 /* HierarchicalExample.m */; };
 		225E906514FCFFF000FA3847 /* HierarchicalExample.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */; };
+		227A47AB15DA5BF900281601 /* HierarchicalExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A815DA5BF900281601 /* HierarchicalExample.m */; };
+		227A47AC15DA5BF900281601 /* HierarchicalExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A815DA5BF900281601 /* HierarchicalExample.m */; };
+		227A47AD15DA5BF900281601 /* ParameterisedTestsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */; };
+		227A47AE15DA5BF900281601 /* ParameterisedTestsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */; };
+		227A47AF15DA5BF900281601 /* RunLoopExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47AA15DA5BF900281601 /* RunLoopExample.m */; };
+		227A47B015DA5BF900281601 /* RunLoopExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47AA15DA5BF900281601 /* RunLoopExample.m */; };
 		22AB8C3A14FD31AB00D95D79 /* Included.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 22AB8C3914FD31AB00D95D79 /* Included.testsuite */; };
 		22BEA17B15DA52200036A04F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BEA17A15DA52200036A04F /* UIKit.framework */; };
 		22BEA17C15DA52200036A04F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221662C014FB900C009B975D /* Foundation.framework */; };
@@ -31,15 +33,16 @@
 		22BEA19E15DA52200036A04F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BEA17A15DA52200036A04F /* UIKit.framework */; };
 		22BEA19F15DA52200036A04F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221662C014FB900C009B975D /* Foundation.framework */; };
 		22BEA1A715DA52200036A04F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22BEA1A515DA52200036A04F /* InfoPlist.strings */; };
-		22BEA1AA15DA52200036A04F /* iOS_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA1A915DA52200036A04F /* iOS_ExampleTests.m */; };
-		22BEA1B215DA52560036A04F /* ParameterisedTestsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 22326A4F14FAA337003055A2 /* ParameterisedTestsExample.m */; };
-		22BEA1B315DA525B0036A04F /* ParameterisedTestsExample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22326A5A14FAA3AF003055A2 /* ParameterisedTestsExample.plist */; };
-		22BEA1B415DA525B0036A04F /* HierarchicalExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 225E906214FCFFF000FA3847 /* HierarchicalExample.m */; };
 		22BEA1B515DA52600036A04F /* HierarchicalExample.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */; };
 		22BEA1B615DA52650036A04F /* Included.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 22AB8C3914FD31AB00D95D79 /* Included.testsuite */; };
-		22BEA1B715DA526D0036A04F /* RunLoopExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 22326A5D14FAA570003055A2 /* RunLoopExample.m */; };
 		22BEA1B915DA55010036A04F /* libECUnitTestsIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EAEC3515D832DD0050DB15 /* libECUnitTestsIOS.a */; };
-		22EAEC3815D832DD0050DB15 /* libECUnitTestsMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EAEC3615D832DD0050DB15 /* libECUnitTestsMac.a */; };
+		22BEA1DA15DA56820036A04F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223269F814FA98BB003055A2 /* Cocoa.framework */; };
+		22BEA1E015DA56820036A04F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22BEA1DE15DA56820036A04F /* InfoPlist.strings */; };
+		22BEA1E215DA56820036A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA1E115DA56820036A04F /* main.m */; };
+		22BEA1E615DA56820036A04F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22BEA1E415DA56820036A04F /* Credits.rtf */; };
+		22BEA1E915DA56820036A04F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BEA1E815DA56820036A04F /* AppDelegate.m */; };
+		22BEA1EC15DA56820036A04F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BEA1EA15DA56820036A04F /* MainMenu.xib */; };
+		22BEA1FA15DA58E70036A04F /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BEA1F915DA58E70036A04F /* ECUnitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,14 +62,13 @@
 		223269FB14FA98BB003055A2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		223269FC14FA98BB003055A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		223269FD14FA98BB003055A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		22326A0914FA98BB003055A2 /* ECUnitTestsExample.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECUnitTestsExample.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22326A0914FA98BB003055A2 /* Mac Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22326A0A14FA98BB003055A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		22326A4F14FAA337003055A2 /* ParameterisedTestsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterisedTestsExample.m; sourceTree = "<group>"; };
-		22326A5114FAA34D003055A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ECUnitTestsExample/Info.plist; sourceTree = SOURCE_ROOT; };
-		22326A5A14FAA3AF003055A2 /* ParameterisedTestsExample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ParameterisedTestsExample.plist; sourceTree = "<group>"; };
-		22326A5D14FAA570003055A2 /* RunLoopExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopExample.m; sourceTree = "<group>"; };
-		225E906214FCFFF000FA3847 /* HierarchicalExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HierarchicalExample.m; sourceTree = "<group>"; };
 		225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HierarchicalExample.testsuite; sourceTree = "<group>"; };
+		227A47A815DA5BF900281601 /* HierarchicalExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HierarchicalExample.m; sourceTree = "<group>"; };
+		227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterisedTestsExample.m; sourceTree = "<group>"; };
+		227A47AA15DA5BF900281601 /* RunLoopExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopExample.m; sourceTree = "<group>"; };
+		227A47B115DA5C0900281601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22AB8C3914FD31AB00D95D79 /* Included.testsuite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Included.testsuite; sourceTree = "<group>"; };
 		22BEA17815DA521F0036A04F /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BEA17A15DA52200036A04F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -86,9 +88,16 @@
 		22BEA19C15DA52200036A04F /* iOS Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BEA1A415DA52200036A04F /* iOS ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		22BEA1A615DA52200036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		22BEA1A815DA52200036A04F /* iOS_ExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_ExampleTests.h; sourceTree = "<group>"; };
-		22BEA1A915DA52200036A04F /* iOS_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_ExampleTests.m; sourceTree = "<group>"; };
-		22C3987214FAC21000DE015C /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
+		22BEA1D815DA56820036A04F /* Mac Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BEA1DD15DA56820036A04F /* Mac Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mac Example-Info.plist"; sourceTree = "<group>"; };
+		22BEA1DF15DA56820036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22BEA1E115DA56820036A04F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22BEA1E315DA56820036A04F /* Mac Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mac Example-Prefix.pch"; sourceTree = "<group>"; };
+		22BEA1E515DA56820036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		22BEA1E715DA56820036A04F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22BEA1E815DA56820036A04F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22BEA1EB15DA56820036A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22BEA1F915DA58E70036A04F /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECUnitTests.framework; path = "../../../../../../../../../../../Caches/DerivedData/ECUnitTestsExample-abewyowfxocaocbksvbysbwavbcy/Build/Products/Debug/ECUnitTests.framework"; sourceTree = "<group>"; };
 		22EAEC3515D832DD0050DB15 /* libECUnitTestsIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libECUnitTestsIOS.a; path = "ECUnitTests/build/Release-iphoneos/libECUnitTestsIOS.a"; sourceTree = "<group>"; };
 		22EAEC3615D832DD0050DB15 /* libECUnitTestsMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libECUnitTestsMac.a; path = "/Caches/DerivedData/ECUnitTestsExample-abewyowfxocaocbksvbysbwavbcy/Build/Products/Debug/libECUnitTestsMac.a"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -98,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22EAEC3815D832DD0050DB15 /* libECUnitTestsMac.a in Frameworks */,
+				22BEA1FA15DA58E70036A04F /* ECUnitTests.framework in Frameworks */,
 				22326A0B14FA98BB003055A2 /* SenTestingKit.framework in Frameworks */,
 				22326A0C14FA98BB003055A2 /* Cocoa.framework in Frameworks */,
 			);
@@ -125,14 +134,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22BEA1D515DA56820036A04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BEA1DA15DA56820036A04F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		223269EA14FA98BB003055A2 = {
 			isa = PBXGroup;
 			children = (
-				22326A2F14FA994C003055A2 /* Tests */,
 				22BEA17F15DA52200036A04F /* iOS Example */,
+				22BEA1DB15DA56820036A04F /* Mac Example */,
+				22326A2F14FA994C003055A2 /* Tests */,
 				22BEA1A215DA52200036A04F /* iOS ExampleTests */,
 				223269F714FA98BB003055A2 /* Frameworks */,
 				223269F614FA98BB003055A2 /* Products */,
@@ -142,9 +160,10 @@
 		223269F614FA98BB003055A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22326A0914FA98BB003055A2 /* ECUnitTestsExample.octest */,
+				22326A0914FA98BB003055A2 /* Mac Tests.octest */,
 				22BEA17815DA521F0036A04F /* iOS Example.app */,
 				22BEA19C15DA52200036A04F /* iOS Tests.octest */,
+				22BEA1D815DA56820036A04F /* Mac Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +171,7 @@
 		223269F714FA98BB003055A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22BEA1F915DA58E70036A04F /* ECUnitTests.framework */,
 				22EAEC3515D832DD0050DB15 /* libECUnitTestsIOS.a */,
 				22EAEC3615D832DD0050DB15 /* libECUnitTestsMac.a */,
 				223269F814FA98BB003055A2 /* Cocoa.framework */,
@@ -177,23 +197,20 @@
 		22326A2F14FA994C003055A2 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				22C3987214FAC21000DE015C /* test.sh */,
-				22326A4F14FAA337003055A2 /* ParameterisedTestsExample.m */,
-				22326A5A14FAA3AF003055A2 /* ParameterisedTestsExample.plist */,
-				225E906214FCFFF000FA3847 /* HierarchicalExample.m */,
+				227A47A815DA5BF900281601 /* HierarchicalExample.m */,
+				227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */,
+				227A47AA15DA5BF900281601 /* RunLoopExample.m */,
 				225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */,
 				22AB8C3914FD31AB00D95D79 /* Included.testsuite */,
-				22326A5D14FAA570003055A2 /* RunLoopExample.m */,
 				22326A5C14FAA537003055A2 /* Supporting Files */,
 			);
-			name = Tests;
-			path = ECUnitTestsExample;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		22326A5C14FAA537003055A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				22326A5114FAA34D003055A2 /* Info.plist */,
+				227A47B115DA5C0900281601 /* Info.plist */,
 				221662B814FB8F7B009B975D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -229,8 +246,6 @@
 		22BEA1A215DA52200036A04F /* iOS ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				22BEA1A815DA52200036A04F /* iOS_ExampleTests.h */,
-				22BEA1A915DA52200036A04F /* iOS_ExampleTests.m */,
 				22BEA1A315DA52200036A04F /* Supporting Files */,
 			);
 			path = "iOS ExampleTests";
@@ -245,12 +260,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		22BEA1DB15DA56820036A04F /* Mac Example */ = {
+			isa = PBXGroup;
+			children = (
+				22BEA1E715DA56820036A04F /* AppDelegate.h */,
+				22BEA1E815DA56820036A04F /* AppDelegate.m */,
+				22BEA1EA15DA56820036A04F /* MainMenu.xib */,
+				22BEA1DC15DA56820036A04F /* Supporting Files */,
+			);
+			path = "Mac Example";
+			sourceTree = "<group>";
+		};
+		22BEA1DC15DA56820036A04F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22BEA1DD15DA56820036A04F /* Mac Example-Info.plist */,
+				22BEA1DE15DA56820036A04F /* InfoPlist.strings */,
+				22BEA1E115DA56820036A04F /* main.m */,
+				22BEA1E315DA56820036A04F /* Mac Example-Prefix.pch */,
+				22BEA1E415DA56820036A04F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22326A0814FA98BB003055A2 /* ECUnitTestsExample */ = {
+		22326A0814FA98BB003055A2 /* Mac Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22326A1E14FA98BC003055A2 /* Build configuration list for PBXNativeTarget "ECUnitTestsExample" */;
+			buildConfigurationList = 22326A1E14FA98BC003055A2 /* Build configuration list for PBXNativeTarget "Mac Tests" */;
 			buildPhases = (
 				22326A0414FA98BB003055A2 /* Sources */,
 				22326A0514FA98BB003055A2 /* Frameworks */,
@@ -261,9 +299,9 @@
 			);
 			dependencies = (
 			);
-			name = ECUnitTestsExample;
+			name = "Mac Tests";
 			productName = ECUnitTestsTests;
-			productReference = 22326A0914FA98BB003055A2 /* ECUnitTestsExample.octest */;
+			productReference = 22326A0914FA98BB003055A2 /* Mac Tests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		22BEA17715DA521F0036A04F /* iOS Example */ = {
@@ -302,6 +340,23 @@
 			productReference = 22BEA19C15DA52200036A04F /* iOS Tests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		22BEA1D715DA56820036A04F /* Mac Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BEA1ED15DA56820036A04F /* Build configuration list for PBXNativeTarget "Mac Example" */;
+			buildPhases = (
+				22BEA1D415DA56820036A04F /* Sources */,
+				22BEA1D515DA56820036A04F /* Frameworks */,
+				22BEA1D615DA56820036A04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mac Example";
+			productName = "Mac Example";
+			productReference = 22BEA1D815DA56820036A04F /* Mac Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -322,7 +377,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22326A0814FA98BB003055A2 /* ECUnitTestsExample */,
+				22BEA1D715DA56820036A04F /* Mac Example */,
+				22326A0814FA98BB003055A2 /* Mac Tests */,
 				22BEA17715DA521F0036A04F /* iOS Example */,
 				22BEA19B15DA52200036A04F /* iOS Tests */,
 			);
@@ -335,7 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22326A5914FAA377003055A2 /* InfoPlist.strings in Resources */,
-				22326A5B14FAA3AF003055A2 /* ParameterisedTestsExample.plist in Resources */,
 				221662BA14FB8F7B009B975D /* InfoPlist.strings in Resources */,
 				225E906514FCFFF000FA3847 /* HierarchicalExample.testsuite in Resources */,
 				22AB8C3A14FD31AB00D95D79 /* Included.testsuite in Resources */,
@@ -357,9 +412,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BEA1A715DA52200036A04F /* InfoPlist.strings in Resources */,
-				22BEA1B315DA525B0036A04F /* ParameterisedTestsExample.plist in Resources */,
 				22BEA1B515DA52600036A04F /* HierarchicalExample.testsuite in Resources */,
 				22BEA1B615DA52650036A04F /* Included.testsuite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BEA1D615DA56820036A04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BEA1E015DA56820036A04F /* InfoPlist.strings in Resources */,
+				22BEA1E615DA56820036A04F /* Credits.rtf in Resources */,
+				22BEA1EC15DA56820036A04F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,9 +463,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22326A5014FAA337003055A2 /* ParameterisedTestsExample.m in Sources */,
-				22326A5E14FAA570003055A2 /* RunLoopExample.m in Sources */,
-				225E906414FCFFF000FA3847 /* HierarchicalExample.m in Sources */,
+				227A47AB15DA5BF900281601 /* HierarchicalExample.m in Sources */,
+				227A47AD15DA5BF900281601 /* ParameterisedTestsExample.m in Sources */,
+				227A47AF15DA5BF900281601 /* RunLoopExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,10 +484,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BEA1AA15DA52200036A04F /* iOS_ExampleTests.m in Sources */,
-				22BEA1B215DA52560036A04F /* ParameterisedTestsExample.m in Sources */,
-				22BEA1B415DA525B0036A04F /* HierarchicalExample.m in Sources */,
-				22BEA1B715DA526D0036A04F /* RunLoopExample.m in Sources */,
+				227A47AC15DA5BF900281601 /* HierarchicalExample.m in Sources */,
+				227A47AE15DA5BF900281601 /* ParameterisedTestsExample.m in Sources */,
+				227A47B015DA5BF900281601 /* RunLoopExample.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BEA1D415DA56820036A04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BEA1E215DA56820036A04F /* main.m in Sources */,
+				22BEA1E915DA56820036A04F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +558,30 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		22BEA1DE15DA56820036A04F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BEA1DF15DA56820036A04F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22BEA1E415DA56820036A04F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BEA1E515DA56820036A04F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		22BEA1EA15DA56820036A04F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BEA1EB15DA56820036A04F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -538,13 +634,14 @@
 		22326A1F14FA98BC003055A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"/Caches/DerivedData/ECUnitTestsExample-abewyowfxocaocbksvbysbwavbcy/Build/Products/Debug\"",
 				);
 				HEADER_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)";
-				INFOPLIST_FILE = ECUnitTestsExample/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -558,13 +655,14 @@
 		22326A2014FA98BC003055A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"/Caches/DerivedData/ECUnitTestsExample-abewyowfxocaocbksvbysbwavbcy/Build/Products/Debug\"",
 				);
 				HEADER_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)";
-				INFOPLIST_FILE = ECUnitTestsExample/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -680,6 +778,42 @@
 			};
 			name = Release;
 		};
+		22BEA1EE15DA56820036A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac Example/Mac Example-Prefix.pch";
+				INFOPLIST_FILE = "Mac Example/Mac Example-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22BEA1EF15DA56820036A04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac Example/Mac Example-Prefix.pch";
+				INFOPLIST_FILE = "Mac Example/Mac Example-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,7 +826,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22326A1E14FA98BC003055A2 /* Build configuration list for PBXNativeTarget "ECUnitTestsExample" */ = {
+		22326A1E14FA98BC003055A2 /* Build configuration list for PBXNativeTarget "Mac Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22326A1F14FA98BC003055A2 /* Debug */,
@@ -708,6 +842,7 @@
 				22BEA1AC15DA52200036A04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22BEA1B015DA52200036A04F /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +851,16 @@
 				22BEA1AE15DA52200036A04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BEA1ED15DA56820036A04F /* Build configuration list for PBXNativeTarget "Mac Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BEA1EE15DA56820036A04F /* Debug */,
+				22BEA1EF15DA56820036A04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

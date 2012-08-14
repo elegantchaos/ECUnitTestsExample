@@ -5,6 +5,6 @@
       location = "group:ECUnitTests/ECUnitTests.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ECUnitTestsExample.xcodeproj">
+      location = "group:ECUnitTestsExample/ECUnitTestsExample.xcodeproj">
    </FileRef>
 </Workspace>
