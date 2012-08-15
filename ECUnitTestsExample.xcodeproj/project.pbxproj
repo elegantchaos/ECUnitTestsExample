@@ -225,7 +225,8 @@
 				2261539A15DACFCC006783C3 /* Release.pch */,
 				2261539B15DACFCC006783C3 /* Shared.pch */,
 			);
-			path = Prefix;
+			name = Prefix;
+			path = Source/Prefix;
 			sourceTree = "<group>";
 		};
 		22BC8E4C15DAC75700132883 /* Configuration */ = {
@@ -240,7 +241,8 @@
 				226153A615DAD4FF006783C3 /* MacUnitTestDebug.xcconfig */,
 				226153A715DAD4FF006783C3 /* MacUnitTestRelease.xcconfig */,
 			);
-			path = Configuration;
+			name = Configuration;
+			path = Source/Configuration;
 			sourceTree = "<group>";
 		};
 		22BEA17F15DA52200036A04F /* iOS Example */ = {
