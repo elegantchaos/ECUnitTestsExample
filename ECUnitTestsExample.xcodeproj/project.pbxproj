@@ -652,7 +652,7 @@
 		};
 		22BEA1AE15DA52200036A04F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 226153A715DAD4FF006783C3 /* MacUnitTestRelease.xcconfig */;
+			baseConfigurationReference = 226153A515DAD4FF006783C3 /* IOSUnitTestRelease.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -703,7 +703,7 @@
 				22326A1A14FA98BC003055A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		22326A1E14FA98BC003055A2 /* Build configuration list for PBXNativeTarget "Mac Tests" */ = {
 			isa = XCConfigurationList;
@@ -712,7 +712,7 @@
 				22326A2014FA98BC003055A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		22BEA1AF15DA52200036A04F /* Build configuration list for PBXNativeTarget "iOS Example" */ = {
 			isa = XCConfigurationList;
@@ -721,7 +721,7 @@
 				22BEA1AC15DA52200036A04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		22BEA1B015DA52200036A04F /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -730,7 +730,7 @@
 				22BEA1AE15DA52200036A04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		22BEA1ED15DA56820036A04F /* Build configuration list for PBXNativeTarget "Mac Example" */ = {
 			isa = XCConfigurationList;
@@ -739,7 +739,7 @@
 				22BEA1EF15DA56820036A04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
