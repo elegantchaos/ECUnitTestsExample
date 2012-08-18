@@ -54,9 +54,9 @@
 		22326A0914FA98BB003055A2 /* Mac Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22326A0A14FA98BB003055A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HierarchicalExample.testsuite; sourceTree = "<group>"; };
-		2261539915DACFCC006783C3 /* Debug.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Debug.pch; sourceTree = "<group>"; };
-		2261539A15DACFCC006783C3 /* Release.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Release.pch; sourceTree = "<group>"; };
-		2261539B15DACFCC006783C3 /* Shared.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.pch; sourceTree = "<group>"; };
+		2261539915DACFCC006783C3 /* ECUnitTestsExampleDebug.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECUnitTestsExampleDebug.pch; sourceTree = "<group>"; };
+		2261539A15DACFCC006783C3 /* ECUnitTestsExampleRelease.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECUnitTestsExampleRelease.pch; sourceTree = "<group>"; };
+		2261539B15DACFCC006783C3 /* ECUnitTestsExampleShared.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECUnitTestsExampleShared.pch; sourceTree = "<group>"; };
 		2261539D15DAD169006783C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2261539F15DAD172006783C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		226153A415DAD4FF006783C3 /* IOSUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSUnitTestDebug.xcconfig; sourceTree = "<group>"; };
@@ -221,9 +221,9 @@
 		2261539815DACFCC006783C3 /* Prefix */ = {
 			isa = PBXGroup;
 			children = (
-				2261539915DACFCC006783C3 /* Debug.pch */,
-				2261539A15DACFCC006783C3 /* Release.pch */,
-				2261539B15DACFCC006783C3 /* Shared.pch */,
+				2261539915DACFCC006783C3 /* ECUnitTestsExampleDebug.pch */,
+				2261539A15DACFCC006783C3 /* ECUnitTestsExampleRelease.pch */,
+				2261539B15DACFCC006783C3 /* ECUnitTestsExampleShared.pch */,
 			);
 			name = Prefix;
 			path = Source/Prefix;
