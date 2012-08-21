@@ -15,6 +15,10 @@
 		2261539E15DAD169006783C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2261539D15DAD169006783C3 /* UIKit.framework */; };
 		226153A015DAD172006783C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2261539F15DAD172006783C3 /* CoreGraphics.framework */; };
 		226153AC15DAD7D6006783C3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226153AB15DAD7D6006783C3 /* SenTestingKit.framework */; };
+		227249ED15E2FC8600CE6E79 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227249E515E2FC8600CE6E79 /* DetailViewController_iPad.xib */; };
+		227249EE15E2FC8600CE6E79 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227249E715E2FC8600CE6E79 /* DetailViewController_iPhone.xib */; };
+		227249EF15E2FC8600CE6E79 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227249E915E2FC8600CE6E79 /* MasterViewController_iPad.xib */; };
+		227249F015E2FC8600CE6E79 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227249EB15E2FC8600CE6E79 /* MasterViewController_iPhone.xib */; };
 		227A47AB15DA5BF900281601 /* HierarchicalExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A815DA5BF900281601 /* HierarchicalExample.m */; };
 		227A47AC15DA5BF900281601 /* HierarchicalExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A815DA5BF900281601 /* HierarchicalExample.m */; };
 		227A47AD15DA5BF900281601 /* ParameterisedTestsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */; };
@@ -64,6 +68,10 @@
 		226153A615DAD4FF006783C3 /* MacUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestDebug.xcconfig; sourceTree = "<group>"; };
 		226153A715DAD4FF006783C3 /* MacUnitTestRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestRelease.xcconfig; sourceTree = "<group>"; };
 		226153AB15DAD7D6006783C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		227249E615E2FC8600CE6E79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		227249E815E2FC8600CE6E79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		227249EA15E2FC8600CE6E79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		227249EC15E2FC8600CE6E79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
 		227A47A815DA5BF900281601 /* HierarchicalExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HierarchicalExample.m; sourceTree = "<group>"; };
 		227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterisedTestsExample.m; sourceTree = "<group>"; };
 		227A47AA15DA5BF900281601 /* RunLoopExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopExample.m; sourceTree = "<group>"; };
@@ -263,6 +271,10 @@
 			isa = PBXGroup;
 			children = (
 				22BEA18115DA52200036A04F /* iOS Example-Info.plist */,
+				227249E515E2FC8600CE6E79 /* DetailViewController_iPad.xib */,
+				227249E715E2FC8600CE6E79 /* DetailViewController_iPhone.xib */,
+				227249E915E2FC8600CE6E79 /* MasterViewController_iPad.xib */,
+				227249EB15E2FC8600CE6E79 /* MasterViewController_iPhone.xib */,
 				22BEA18215DA52200036A04F /* InfoPlist.strings */,
 				22BEA18515DA52200036A04F /* main.m */,
 				22BEA18715DA52200036A04F /* iOS Example-Prefix.pch */,
@@ -410,6 +422,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BEA18415DA52200036A04F /* InfoPlist.strings in Resources */,
+				227249ED15E2FC8600CE6E79 /* DetailViewController_iPad.xib in Resources */,
+				227249EE15E2FC8600CE6E79 /* DetailViewController_iPhone.xib in Resources */,
+				227249EF15E2FC8600CE6E79 /* MasterViewController_iPad.xib in Resources */,
+				227249F015E2FC8600CE6E79 /* MasterViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +541,38 @@
 			path = "/Volumes/data/Work/projects/com/elegantchaos/libraries/objective c/ECUnitTests/Example";
 			sourceTree = "<absolute>";
 		};
+		227249E515E2FC8600CE6E79 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227249E615E2FC8600CE6E79 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		227249E715E2FC8600CE6E79 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227249E815E2FC8600CE6E79 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		227249E915E2FC8600CE6E79 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227249EA15E2FC8600CE6E79 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		227249EB15E2FC8600CE6E79 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227249EC15E2FC8600CE6E79 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
 		22BEA18215DA52200036A04F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -603,6 +651,11 @@
 			baseConfigurationReference = 22BC8E4D15DAC75700132883 /* IOSDebug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iOS Example/iOS Example-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -612,6 +665,11 @@
 			baseConfigurationReference = 22BC8E4E15DAC75700132883 /* IOSRelease.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iOS Example/iOS Example-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
