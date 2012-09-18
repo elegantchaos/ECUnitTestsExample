@@ -383,7 +383,7 @@
 		223269EC14FA98BB003055A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 223269EF14FA98BB003055A2 /* Build configuration list for PBXProject "ECUnitTestsExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -625,6 +625,7 @@
 			baseConfigurationReference = 226153A615DAD4FF006783C3 /* MacUnitTestDebug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -638,6 +639,7 @@
 			baseConfigurationReference = 226153A715DAD4FF006783C3 /* MacUnitTestRelease.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				OTHER_LDFLAGS = (
 					"-ObjC",
