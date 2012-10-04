@@ -11,6 +11,7 @@
 		22326A0B14FA98BB003055A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22326A0A14FA98BB003055A2 /* SenTestingKit.framework */; };
 		22326A0C14FA98BB003055A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223269F814FA98BB003055A2 /* Cocoa.framework */; };
 		22326A5914FAA377003055A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22326A5714FAA377003055A2 /* InfoPlist.strings */; };
+		223700B0161E0E25007E846F /* ServerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 223700AF161E0E25007E846F /* ServerExample.m */; };
 		225E906514FCFFF000FA3847 /* HierarchicalExample.testsuite in Resources */ = {isa = PBXBuildFile; fileRef = 225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */; };
 		2261539E15DAD169006783C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2261539D15DAD169006783C3 /* UIKit.framework */; };
 		226153A015DAD172006783C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2261539F15DAD172006783C3 /* CoreGraphics.framework */; };
@@ -57,6 +58,7 @@
 		223269FD14FA98BB003055A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22326A0914FA98BB003055A2 /* Mac Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22326A0A14FA98BB003055A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		223700AF161E0E25007E846F /* ServerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerExample.m; sourceTree = "<group>"; };
 		225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HierarchicalExample.testsuite; sourceTree = "<group>"; };
 		2261539915DACFCC006783C3 /* ECUnitTestsExampleDebug.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECUnitTestsExampleDebug.pch; sourceTree = "<group>"; };
 		2261539A15DACFCC006783C3 /* ECUnitTestsExampleRelease.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECUnitTestsExampleRelease.pch; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				227A47A815DA5BF900281601 /* HierarchicalExample.m */,
 				227A47A915DA5BF900281601 /* ParameterisedTestsExample.m */,
 				227A47AA15DA5BF900281601 /* RunLoopExample.m */,
+				223700AF161E0E25007E846F /* ServerExample.m */,
 				225E906314FCFFF000FA3847 /* HierarchicalExample.testsuite */,
 				22AB8C3914FD31AB00D95D79 /* Included.testsuite */,
 				22326A5C14FAA537003055A2 /* Supporting Files */,
@@ -489,6 +492,7 @@
 				227A47AB15DA5BF900281601 /* HierarchicalExample.m in Sources */,
 				227A47AD15DA5BF900281601 /* ParameterisedTestsExample.m in Sources */,
 				227A47AF15DA5BF900281601 /* RunLoopExample.m in Sources */,
+				223700B0161E0E25007E846F /* ServerExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
